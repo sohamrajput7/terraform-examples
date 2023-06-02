@@ -33,6 +33,9 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# Ignore .terraform.lock.hcl
+*.hcl
+
 # Ignore MacOS .DS_Store files
 .DS_Store
 **/.DS_Store
